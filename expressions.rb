@@ -35,7 +35,6 @@ until i>=repeat_count
 end
 inputs.each{ |a| 
   rpn_convertor(a.to_s)
-  puts
 }
 
 
